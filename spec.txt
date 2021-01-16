@@ -1,0 +1,47 @@
+SourceToken {
+      tokAnn { 
+        TokenAnn {
+          tokRange { 
+            SourceRange {
+              srcStart { 
+                SourcePos {
+                  srcLine = 1, 
+                  srcColumn = 1
+                  }
+              }, 
+               srcEnd { 
+                SourcePos {
+                    srcLine = 1, 
+                    srcColumn = 7
+                    }
+                }
+            }, 
+            tokLeadingComments = [], 
+            tokTrailingComments = [Space 1]
+        }
+       }
+      }, 
+      tokValue = 
+        TokLowerName [] "module"
+}
+
+"SourceToken" : {
+    "tokAnn" : {
+        "TokenAnn" : {
+            "tokRange" : {
+                "SourceRange" : {
+                    "srcStart" : {
+                        "srcLine" : "1",
+                        "srcColumn" : "1"
+                    },
+                    "srcEnd" : {
+                        "srcLine" : "1",
+                        "srcColumn" : "7"
+                    }
+                },
+                "tokLeadingComments" : [],
+                "tokTrailingComments" : ["Space 1"]
+            }
+        }
+    }
+}
