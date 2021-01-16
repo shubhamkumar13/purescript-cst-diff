@@ -20,7 +20,7 @@ main = do
         Left a -> Prelude.putStrLn $ show a
         Right b ->  
             -- Prelude.putStrLn (show $ toJSONList b) >>
-            IO.writeFile "something.txt" (render $ hcat (map (pp_value . f) b)) >> 
+            IO.writeFile "something.json" (render $ hcat (map (pp_value . f) b)) >> 
             Prelude.putStrLn ""
             -- Prelude.putStrLn (show . head $ map f b)
 
